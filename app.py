@@ -30,7 +30,9 @@ def generate_response(prompt):
     return response.choices[0].text.strip()
 
 index = load_document()
-prompt = input('Ask me a question: ')
-# response = generate_response(prompt)
-response = index.query(prompt)
-print(response)
+prompt = input('Ask me a question (Ctrl-c to quit): ')
+while (1):
+    # response = generate_response(prompt)
+    response = index.query(prompt)
+    print(response)
+    prompt = input('Ask another question: ')
