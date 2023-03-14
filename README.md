@@ -6,8 +6,8 @@ Create a virtual environment and restore dependencies
 `export OPENAI_API_KEY=<YourAPIKey>`
 `python app.py`  
 
-`load_document()` loads files from disk and indexes them.  
-`generate_response()` calls the openai Completion API endpoint
+`load_document()` loads files from disk and indexes them (does not need API key).  
+`generate_response()` calls the openai Completion API endpoint (requires API key)
 
 ## Todo
 
