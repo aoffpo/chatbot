@@ -1,8 +1,8 @@
 # Simple Chat Bot Example
 
 ## Usage
-
-Create virtual environment and restore dependencies  
+Python 3.10.10  
+Create a virtual environment and restore dependencies  
 `export OPENAI_API_KEY=<YourAPIKey>`
 `python app.py`  
 
